@@ -1,0 +1,17 @@
+{
+  "name": "home_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@mdi/font": "^5.8.55",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o public/css"
+  },
+  "author": "",
+  "license": "ISC"
+}
