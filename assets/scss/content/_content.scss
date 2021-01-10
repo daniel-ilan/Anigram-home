@@ -7,7 +7,6 @@
   border-radius: 50px;
   background: white;
   width: 945px;
-  height: 604px;
   margin: auto;
 }
 
@@ -36,6 +35,16 @@
       font-size: 36px;
       line-height: 43px;
       color: #f09e1a;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card__wrapper {
+    width: 100%;
+
+    ul {
+      padding: 0;
     }
   }
 }
