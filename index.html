@@ -12,51 +12,76 @@
 </head>
 
 <body>
-    <div class="vh-100 bg-elipse">
-        <header class="h-100">
-            <nav class="navbar navbar-dark navbar-expand-md main-nav__wrapper">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">מי אנחנו</a>
-                            <a class="nav-link" href="#">מחירים</a>
-                        </div>
-                        <div class="navbar-nav ms-auto">
-                            <a class="btn btn-primary register-btn" href="#">הרשמה</a>
-                            <a class="nav-link" href="#">התחברות</a>
-                        </div>
+
+    <header class="header-wrapper">
+        <nav class="navbar navbar-dark navbar-expand-md main-nav__wrapper">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">מי אנחנו</a>
+                        <a class="nav-link" href="#">מחירים</a>
                     </div>
-                    <a class="ms-5 navbar-brand">לוגו!</a>
+                    <div class="navbar-nav ms-auto">
+                        <a class="btn btn-primary register-btn" href="#">הרשמה</a>
+                        <a class="nav-link" href="#">התחברות</a>
+                    </div>
                 </div>
-            </nav>
-            <div class="container-fluid d-flex flex-column cta__container">
-                <div class="container mt-5 d-flex flex-column cta__wrapper">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-10 col">
-                            <h1 class="h1">התנגדו להצעה שלכם או סירבו לבקשה שלכם?</h1>
-                        </div>
+                <a class="ms-5 navbar-brand">לוגו!</a>
+            </div>
+        </nav>
+
+        <img class="bg-elipse" src="./assets/images/bg_elipse.svg" alt="" srcset="">
+        <div class="d-flex cta__container">
+
+            <div class="container mt-5 d-flex flex-column cta__wrapper">
+                <div class="row">
+                    <div class="col-lg-7 col-md-10 col-12">
+                        <h1 class="h1">התנגדו להצעה שלכם או סירבו לבקשה שלכם?</h1>
                     </div>
-                    <div class="row header__cta-text">
-                        <div class="col-xs-12">
-                            <h3>נמאס לכם לשמוע לא?</h3>
-                            <h3> רוצים לשמוע <span>כן?!</span></h3>
-                        </div>
-                        <div class="col-xs-12 mt-auto">
-                            <p>כאן תלמדו להוביל תהליכי משא ומתן ולמנוע התנגדויות</p>
-                            <span class="iconify icon-large" data-icon="mdi:chevron-double-down"
-                                data-inline="false"></span>
-                        </div>
+                    <div class="col-lg-5 col">
+                        <img class="header-image" src="./assets/images/header_image.svg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="row header__cta-text">
+                    <div class="col-xs-12">
+                        <h3>נמאס לכם לשמוע לא?</h3>
+                        <h3> רוצים לשמוע <span>כן?!</span></h3>
+                    </div>
+                    <div class="col-xs-12 mt-auto">
+                        <p>כאן תלמדו להוביל תהליכי משא ומתן ולמנוע התנגדויות</p>
+                        <span class="iconify icon-large" data-icon="mdi:chevron-double-down" data-inline="false"></span>
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
-    <main></main>
+        </div>
+    </header>
+
+    <main class="container main">
+        <article class="row">
+            <section class="col-12">
+                <div class="card mb-3 card__wrapper">
+                    <div class="card-body p-5">
+                        <h5 class="card-title system-info">אחרי שימוש במערכת...</h5>
+                        <ul>
+                            <li>תגלו איך התנגדות להצעה שלכם או סירוב לבקשה שלכם, משפיעה
+                                עליכם באופן אישי</li>
+                            <li>תזהו מה גורם לכם ולאחרים להתנגדות במשא ומתן</li>
+                            <li>תבינו למה כל אחד מאיתנו מגיב שונה לאותו 'לא'</li>
+                            <li>תכירו את הגורמים שמניעים את מי שמולנו ואיך לנתב את זה לטובתכם</li>
+                            <li>תוכלו להוביל משאים ומתנים לטובתכם</li>
+                        </ul>
+                        <p class="card-text text-center">תהפכו לא <span>לכן</span></p>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </main>
     <footer></footer>
 
 

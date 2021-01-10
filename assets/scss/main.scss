@@ -11,6 +11,7 @@ body,
 html {
   margin: 0 auto;
   font-family: Rubik;
+  color: #373737;
 }
 
 h1,
@@ -21,3 +22,4 @@ h1,
 
 @import "header/header";
 @import "icons/icons";
+@import "content/content";
