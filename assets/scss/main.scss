@@ -4,20 +4,55 @@
     format("truetype-variations");
   font-weight: 100 900;
 }
-
+$font-xlarge: calc(2rem + 1.7vw);
+$font-large: calc(2rem + 1vw);
+$font-md: calc(1rem + 1vw);
+$font-small: calc(1rem + 0.3vw);
 $primary: #f9a826;
 
 body,
 html {
   margin: 0 auto;
   font-family: Rubik;
-  color: #373737;
+  color: #313131;
 }
 
 h1,
 .h1 {
   font-weight: 900;
-  font-size: 4rem;
+  font-size: $font-xlarge;
+}
+
+h2,
+.h2 {
+  font-weight: 900;
+  font-size: $font-large;
+}
+
+h3,
+.h3 {
+  font-size: $font-md;
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: $font-small;
+}
+
+.text-color-primary {
+  color: $primary;
+}
+
+.mt-cus-5 {
+  margin-top: 5rem;
+}
+
+.mt-cus-4 {
+  margin-top: 4rem;
+}
+
+.mt-cus-3 {
+  margin-top: 3rem;
 }
 
 @import "header/header";

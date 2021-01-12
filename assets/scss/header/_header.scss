@@ -2,6 +2,8 @@
   position: absolute;
   left: 0;
   width: 100%;
+  z-index: -100;
+  top: -70px;
 }
 
 .header-wrapper {
@@ -56,12 +58,6 @@
     * {
       text-align: center;
     }
-    h3 {
-      font-weight: 700;
-    }
-    span {
-      color: $primary;
-    }
   }
 }
 
@@ -70,7 +66,7 @@
 }
 
 .header-image {
-  max-width: 450px;
+  max-width: 400px;
   margin: auto;
   display: block;
 }
@@ -81,6 +77,7 @@
   }
 
   .bg-elipse {
-    top: 50%;
+    top: 60%;
+    width: 200%;
   }
 }
