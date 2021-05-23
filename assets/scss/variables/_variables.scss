@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../../assets/fonts/Rubik-VariableFont_wght.ttf)
+    format("truetype-variations");
+  font-weight: 100 900;
+}
+$font-xlarge: calc(1.7rem + 1.9vw);
+$font-large: calc(2rem + 1vw);
+$font-md: calc(1.6rem + 0.6vw);
+$font-small-emph: calc(1.3rem + 0.6vw);
+$font-small: calc(1rem + 0.6vw);
+$primary: #f9a826;

@@ -1,15 +1,4 @@
-@font-face {
-  font-family: Rubik;
-  src: url(../../assets/fonts/Rubik-VariableFont_wght.ttf)
-    format("truetype-variations");
-  font-weight: 100 900;
-}
-$font-xlarge: calc(2rem + 1.7vw);
-$font-large: calc(2rem + 1vw);
-$font-md: calc(1rem + 1vw);
-$font-small: calc(1rem + 0.3vw);
-$primary: #f9a826;
-
+@import 'variables/variables';
 body,
 html {
   margin: 0 auto;
@@ -35,12 +24,28 @@ h3,
   font-weight: 700;
 }
 
+p {
+  font-size: $font-small;
+}
+
+li {
+  font-size: $font-small;
+}
+
 .text-small {
   font-size: $font-small;
 }
 
+.font-bold {
+  font-weight: 500;
+}
+
 .text-color-primary {
   color: $primary;
+}
+
+.mt-cus-7 {
+  margin-top: 7rem;
 }
 
 .mt-cus-5 {
@@ -55,6 +60,6 @@ h3,
   margin-top: 3rem;
 }
 
-@import "header/header";
-@import "icons/icons";
-@import "content/content";
+@import 'header/header';
+@import 'icons/icons';
+@import 'content/content';
