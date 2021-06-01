@@ -92,9 +92,10 @@
 }
 
 .types_wheel {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   display: block;
+  margin-block: 1rem;
 }
 
 .owner-details__wrapper {
@@ -114,8 +115,8 @@
 .price {
   border-radius: 1rem;
   overflow: hidden;
-  width: 90%;
   width: 75%;
+  margin: auto;
   min-height: 260px;
   .card-header {
     color: white;
@@ -155,5 +156,11 @@
   .bg-yellow {
     height: calc(100% + 330px);
     width: 160%;
+  }
+  .types_wheel {
+    width: 100%;
+  }
+  .price {
+    margin-top: 20px;
   }
 }
