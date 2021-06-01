@@ -85,6 +85,12 @@ li {
 .navbar-nav .container {
   background-color: inherit; }
 
+.logo-image {
+  max-width: 100%; }
+
+.navbar-brand {
+  max-width: 55px; }
+
 .cta__container {
   height: 90%;
   justify-content: center;
@@ -160,12 +166,12 @@ li {
   width: 945px;
   margin: auto; }
 
-.card-body ul li {
+.custom-bullets li {
   list-style: none;
   margin: 30px 12px;
   color: #000000;
   position: relative; }
-  .card-body ul li::before {
+  .custom-bullets li::before {
     content: '';
     position: absolute;
     width: 16px;
@@ -176,11 +182,11 @@ li {
     background-image: url("../../assets/images/listStyle.svg");
     background-size: contain; }
 
-.card-body .cus-card-text {
+.custom-bullets .cus-card-text {
   font-size: calc(1.3rem + 0.6vw);
   color: #000000;
   font-weight: 500; }
-  .card-body .cus-card-text span {
+  .custom-bullets .cus-card-text span {
     font-weight: 600;
     font-size: calc(2rem + 1vw);
     line-height: 43px;
@@ -233,6 +239,10 @@ li {
 .owner__img {
   max-width: 30%;
   border-radius: 28px; }
+
+.prices-wrapper {
+  padding-block: 50px;
+  background: linear-gradient(181deg, #e0e0e03d 0%, #82828200 49%, #e0e0e03d 100%); }
 
 .price {
   border-radius: 1rem;
