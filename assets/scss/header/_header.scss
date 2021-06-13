@@ -12,29 +12,12 @@
 
 .main-nav__wrapper {
   background-color: #5286ec;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .navbar-nav {
-  .btn-primary {
-    background-color: $primary;
-    border-color: $primary;
-    &:hover {
-      background-color: darken($color: $primary, $amount: 10);
-      border-color: darken($color: $primary, $amount: 10);
-    }
-  }
-  .register-btn {
-    font-family: Rubik;
-    line-height: 1;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    width: 100px;
-    justify-content: center;
-    margin-left: 10px;
-  }
-
   .container {
     background-color: inherit;
   }
@@ -44,12 +27,33 @@
   max-width: 100%;
 }
 
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    background-color: darken($color: $primary, $amount: 10);
+    border-color: darken($color: $primary, $amount: 10);
+  }
+}
+
+.register-btn {
+  font-family: Rubik;
+  line-height: 1;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 100px;
+  justify-content: center;
+  margin-inline-end: auto;
+}
+
 .navbar-brand {
   max-width: 55px;
 }
 
 .cta__container {
-  height: 90%;
+  height: 100%;
   justify-content: center;
   position: relative;
 
@@ -85,7 +89,10 @@
   }
 
   .bg-elipse {
-    top: 60%;
-    width: 200%;
+    top: 40%;
+    width: 250%;
+  }
+  .register-btn {
+    margin: auto;
   }
 }
