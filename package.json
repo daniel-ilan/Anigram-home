@@ -2,7 +2,6 @@
   "name": "home_page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "dependencies": {
     "@mdi/font": "^5.8.55",
     "node-sass": "^5.0.0",
@@ -13,9 +12,10 @@
     "parcel": "^2.0.0-beta.3.1",
     "postcss": "^8.3.2"
   },
+  "source": {},
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build ./index.html --dist-dir dist --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch assets/scss -o public/css"
   },
