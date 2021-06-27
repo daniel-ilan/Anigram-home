@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     <title>pan system</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="5" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="5" tabindex="0" class="en">
 
     <header class="header-wrapper" id="top">
         <nav class="navbar navbar-dark navbar-expand-md main-nav__wrapper" id="scroll-spy">
@@ -26,11 +26,11 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#the-system">על המערכת</a>
-                        <a class="nav-link" href="#prices">חבילות אבחון</a>
+                        <a class="nav-link active" aria-current="page" href="#the-system">About the system</a>
+                        <a class="nav-link" href="#prices">Test Packages</a>
                     </div>
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">התחברות</a>
+                        <a class="nav-link" href="#">Login</a>
                     </div>
                 </div>
                 <div class="navbar-no-collapse">
@@ -41,14 +41,15 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="lang-dropdown">
                             <li>
-                                <h6 class="dropdown-header">בחירת שפה</h6>
+                                <h6 class="dropdown-header">Language</h6>
                             </li>
-                            <li><a class="dropdown-item disabled" tabindex="-1" aria-disabled="true" href="#">עברית</a>
+                            <li><a class="dropdown-item" href="index.html">עברית</a>
                             </li>
-                            <li><a class="dropdown-item" href="index-en.html">English</a></li>
+                            <li><a class="dropdown-item disabled" tabindex="-1" aria-disabled="true"
+                                    href="index.html">English</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-primary register-btn" href="#">הרשמה</a>
+                    <a class="btn btn-primary register-btn" href="#">Sign up</a>
                     <a class="navbar-brand"><img src="./assets/images/logo.png" class="logo-image" /></a>
                 </div>
             </div>
@@ -59,7 +60,7 @@
             <div class="container mt-5 d-flex flex-column cta__wrapper">
                 <div class="row mt-5">
                     <div class="col-lg-7 col-md-10 col-12">
-                        <h1 class="h1" id="top-header">התנגדו להצעה שלכם או סירבו לבקשה שלכם?</h1>
+                        <h1 class="h1" id="top-header">Declined your offer or refused your request?</h1>
                     </div>
                     <div class="col-lg-5 col mt-5">
                         <img class="header-image" src="./assets/images/header_image.svg" alt="" srcset="">
@@ -67,11 +68,11 @@
                 </div>
                 <div class="row header__cta-text">
                     <div class="col-xs-12">
-                        <h3>נמאס לכם לשמוע לא?</h3>
-                        <h3> רוצים לשמוע <span class="text-color-primary">כן?!</span></h3>
+                        <h3>Tired of hearing NO?</h3>
+                        <h3> Do you want to hear <span class="text-color-primary">YES?!</span></h3>
                     </div>
                     <div class="col-xs-12 mt-auto">
-                        <p>כאן תלמדו להוביל תהליכי משא ומתן ולמנוע התנגדויות</p>
+                        <p>Here you will learn to lead negotiation processes and avoid objections</p>
                         <span class="iconify icon-large" data-icon="mdi:chevron-double-down" data-inline="false"></span>
                     </div>
                 </div>
@@ -90,16 +91,18 @@
                     <section class="col-12">
                         <div class="card mb-3 card__wrapper">
                             <div class="card-body p-5">
-                                <h2 class="card-title system-info">אחרי שימוש במערכת...</h2>
+                                <h2 class="card-title system-info">After using the system...</h2>
                                 <ul class="custom-bullets">
-                                    <li class="font-bold">תגלו איך התנגדות להצעה שלכם או סירוב לבקשה שלכם, משפיעה
-                                        עליכם באופן אישי</li>
-                                    <li>תזהו מה גורם לכם ולאחרים להתנגדות במשא ומתן</li>
-                                    <li>תבינו למה כל אחד מאיתנו מגיב שונה לאותו 'לא'</li>
-                                    <li>תכירו את הגורמים שמניעים את מי שמולנו ואיך לנתב את זה לטובתכם</li>
-                                    <li class="font-bold">תוכלו להוביל משאים ומתנים לטובתכם</li>
+                                    <li class="font-bold">You will find out how opposition to your offer or refusal of
+                                        your request, affects you personally</li>
+                                    <li>Identify what triggers resistance in you and others during negotiations</li>
+                                    <li>Understand why each of us responds differently to the same 'no'</li>
+                                    <li>Get to know the factors that motivate those in front of us and how to direct
+                                        them
+                                        to your favor</li>
+                                    <li class="font-bold">You will lead negotiations towards your interests</li>
                                 </ul>
-                                <p class="card-text text-center cus-card-text">תהפכו לא <span>לכן</span></p>
+                                <p class="card-text text-center cus-card-text">Turn NO <span>into a YES</span></p>
                             </div>
                         </div>
                     </section>
@@ -110,45 +113,47 @@
                 <div class="container">
                     <section class="row mt-cus-5">
                         <div class="col-12">
-                            <h2>למה זה חשוב, <span class="text-color-primary">במיוחד במשא ומתן?</span> </h2>
-                            <h5>ההתנגדות לבקשה או להצעה שלנו, מעוררת רגשות כמו פחד,
-                                לחץ, כעס או תסכול</h5>
+                            <h2>Why is this important, <span class="text-color-primary">especially in
+                                    negotiations?</span> </h2>
+                            <h5>Opposing our request or suggestion evokes feelings like fear, stress, anger or
+                                frustration</h5>
                         </div>
 
-                        <h3 class="text-center mb-5 mt-cus-5">בדרך כלל אנו פועלים באחת מהדרכים הבאות</h3>
+                        <h3 class="text-center mb-5 mt-cus-5">We usually act in one of the following ways</h3>
                         <div class="container mt-cus-5">
                             <div class="row">
                                 <div class="col-md-6 col-lg-4 col-12 mb-4">
                                     <div class="container text-center">
                                         <img src="./assets/images/fight.svg" alt="">
                                         <h3 class="fff__text">F<span>ight</span></h3>
-                                        <p class="fff_text-p">כועסים, צועקים ונלחמים
-                                            על הרעיון</p>
+                                        <p class="fff_text-p">Angry, shouting and standing our ground</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4 col-12 mb-4">
                                     <div class="container text-center">
                                         <img src="./assets/images/flight.svg" alt="">
                                         <h3 class="fff__text">F<span>light</span></h3>
-                                        <p class="fff_text-p">מתנתקים ומנסים לברוח
-                                            ככל שניתן מהסיטואציה</p>
+                                        <p class="fff_text-p">Isolate our selves and trying to escape from the situation
+                                            as
+                                            much as
+                                            possible</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-4 col-12 mb-4">
                                     <div class="container text-center">
                                         <img src="./assets/images/freeze.svg" alt="">
                                         <h3 class="fff__text">F<span>reeze</span></h3>
-                                        <p class="fff_text-p">בשוק, בהלם, לא נוקטים
-                                            פעולה וקופאים במקום</p>
+                                        <p class="fff_text-p">Astonisht, shoked, not taking any action and freeze in
+                                            place</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="text-center fff-section__bottom">
-                            <h2>התגובות האלו, לא מקדמות אותנו</h2>
-                            <p class="fff_text-p">הן גורמות לנו לאבד שליטה על הסיטואציה ופוגעות באפשרויות שלנו
-                                להתמקד במטרות וביעדים וכמובן משפיעות על היכולת לנהל את המשא
-                                ומתן</p>
+                            <h2>These reactions do not promote us</h2>
+                            <p class="fff_text-p">They cause us to lose control of the situation and impair our ability
+                                to focus on our goals and objectives, and of course affect the ability to conduct
+                                negotiations</p>
                         </div>
                     </section>
                 </div>
@@ -156,42 +161,40 @@
             <section class="container px-5">
                 <div class="row mt-cus-5">
                     <div class="col-lg-10 col m-auto">
-                        <h2 id="the-system">אפשר לעשות את זה <span class="text-color-primary">אחרת</span> </h2>
-                        <p class="mt-cus-4 text-small">מערכת PAN -
+                        <h2 id="the-system">It can be done <span class="text-color-primary">differently</span> </h2>
+                        <p class="mt-cus-4 text-small">PAN system -
                             <span class="color-black-50">Personal Analysis (for) Negotiation</span>
                         </p>
                         <p>
-                            הינה מערכת אבחון אישי מבוסס אלגוריתם, המזהה באמצעות שאלון, את הגורמים
-                            המעוררים התנגדות אצל כל אחד מאיתנו. <br />
-                            תוצאות האבחון מצביעות על דפוסי ההתנגדות הדומיננטיים שלנו, על פי מודל
-                            האניגרם. המודל מבחין בין  תשעה  טיפוסים: מחוקק, מסייע, ביצועיסט, יצירתי,
-                            מדען, ספקן, הרפתקן, בוס, פותר בעיות.
+                            Is a personal diagnostic system based on an algorithm, which identifies through a
+                            questionnaire, the factors that provoke resistance in each of us. <br />
+                            The diagnostic results indicate our dominant resistance patterns, according to the Enneagram
+                            model. The model distinguishes between nine personality types: Reformer, Helper,
+                            Performer, Creative,
+                            Investigator, Loyal Skeptic, Adventurer, Boss, Peacemaker.
                         </p>
                         <img class="types_wheel" src="assets/images/types_wheel.jpg" />
 
 
-                        <p class="mt-cus-4 text-small"><span class="font-bold">לכל אחד מהטיפוסים</span> באניגרם
-                            נקודת
-                            מבט משלו על
-                            העולם, דפוסי חשיבה ייחודיים וגם גורמים שונים
-                            להתנגדות.
-                            <br />כל אחד מאיתנו הוא תמהיל שונה של
-                            תשעת הטיפוסים לכן זיהוי התמהיל האישי של
-                            הטיפוסים הדומיננטיים שלנו, יעזור לנו להבין את
-                            התגובה שלנו להתנגדות ולייעל את ההתנהלות
-                            האישית והמקצועית שלנו.
+                        <p class="mt-cus-4 text-small"><span class="font-bold">Each of the types</span> in Enneagram
+                            His own point of view on the world, unique thought patterns and also various factors for
+                            resistance.
+                            <br />Each of us is a different mix of the nine types so identifying the personal mix of our
+                            dominant types will help us understand our response to resistance and streamline our
+                            personal and professional conduct.
                         </p>
                     </div>
                 </div>
                 <div class="row mt-cus-3">
                     <div class="col">
-                        <h3 class="text-center">באמצעות האבחון שתפיקו במערכת פאן תקבלו תמונה מדויקת של <span
-                                class="text-color-primary">הגורמים
-                                המשפיעים</span>
-                            עליכם</h3>
+                        <h3 class="text-center">Through the diagnosis in Pan system you will get an accurate picture of
 
-                        <h3 class="text-center">בתהליכי תקשורת בכלל ו<span class="text-color-primary">במשא ומתן
-                                בפרט</span>
+                            <span class="text-color-primary">the factors </span>
+                            that influence you
+                        </h3>
+
+                        <h3 class="text-center">In communication processes in general and<span
+                                class="text-color-primary"> in negotiations in particular</span>
                         </h3>
                     </div>
                 </div>
@@ -201,9 +204,9 @@
                 <div class="container mt-cus-3">
                     <div class="row">
                         <div class="col owner-details__wrapper">
-                            <h3>המערכת פותחה על ידי עו"ד אורנה קופלוביץ'</h3>
+                            <h3>The system was developed by Adv. Orna Koplovich</h3>
                             <h4 class="mt-3">
-                                ראש המרכז לניהול משא ומתן וחדשנות עסקית ב HIT
+                                Head of the Center for Negotiation and Business Innovation at HIT
                             </h4>
                             <div class="owner-img__wrapper row">
                                 <div class="col-md-2 col-12">
@@ -211,12 +214,13 @@
                                 </div>
                                 <div class="col-md-10 col-12">
                                     <p class="owner-details">
-                                        מומחית לניהול משא ומתן ואסטרטגיה עסקית, בעלת ניסיון רב בליווי מנהלים וארגונים
-                                        בתהליכי
-                                        משא ומתן ואסטרטגיה עסקית, להשגת תוצאות טובות יותר.
-                                        אורנה היא מרצה בכירה, עו"ד ומגשרת, בעלת תארים מתקדמים בניהול משא ומתן ומשפטים.
-                                        פיתחה קורס מקוון (MOOC) ייחודי בניהול משא ומתן ואת מתודת 361°Negotiation
-                                        מפתחת מערכות טכנולוגיות לאבחון ותרגול במשא ומתן.
+                                        Expert in negotiation and business strategy, with extensive experience in
+                                        accompanying managers and organizations in negotiation processes and business
+                                        strategy, to achieve better results. Orna is a senior lecturer, attorney and
+                                        mediator, with advanced degrees in negotiation management and law. She has
+                                        developed a unique online course (MOOC) in negotiation management and the 361 °
+                                        Negotiation method develops technological systems for diagnosis and practice in
+                                        negotiation.
                                     </p>
                                 </div>
                             </div>
@@ -228,9 +232,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <h4 class="text-center">מערכת PAN - Personalities Analysis (for) Negotiation <br /> 
-                                נוצרה עבור מי שמבין שניתן לשפר את כישורי המשא ומתן ולהשיג תוצאות טובות יותר
-                                כאן ועכשיו
+                            <h4 class="text-center"> PAN Personalities Analysis (for) Negotiation System <br /> 
+                                was developed for individuals who know that it is possible to improve negotiation skills
+                                and achieve better results here and now
                             </h4>
                         </div>
                     </div>
@@ -243,11 +247,12 @@
                         <div class="col-12 col-lg-3">
                             <div class="card price price-high">
                                 <div class="card-header price-1">
-                                    <h4>אבחון 1</h4>
+                                    <h4> Single test </h4>
                                     <hr class="hr" />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">להיכרות עם עצמכם ועם ההתנהלות האישית או המקצועית שלכם
+                                    <p class="card-text">To acquire useful knowledge about yourself and your personal or
+                                        professional conduct
                                     </p>
                                     <p class="card-text text-center mt-auto">
                                         110 ₪
@@ -258,15 +263,14 @@
                         <div class="col-12 col-lg-4">
                             <div class="card price price-medium">
                                 <div class="card-header price-2">
-                                    <h3>אבחון כפול
+                                    <h3>Two tests
                                     </h3>
                                     <hr class="hr" />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">להתמקדות בתמונה המלאה, הן מהזווית האישית והן מהזווית המקצועית
-                                        של
-                                        ההתנהלות שלכם
-                                        (תתפלאו לגלות הבדלים!)
+                                    <p class="card-text">Focusing on the whole picture, both from a personal and
+                                        a professional angle of your conduct (you will be surprised to find
+                                        differences!)
                                     </p>
                                     <p class="card-text text-center mt-auto">
                                         182 ₪
@@ -277,13 +281,13 @@
                         <div class="col-12 col-lg-3">
                             <div class="card price price-low">
                                 <div class="card-header price-3">
-                                    <h4>אבחון + ייעוץ
+                                    <h4>Test + Consulting
                                     </h4>
                                     <hr class="hr" />
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text">ליישום מיידי של תוצאות האבחון הייחודי שלכם, כמקפצה להעצמה
-                                        ולהתייעלות
+                                    <p class="card-text">For immediate application of your unique diagnostic results, as
+                                        a springboard for empowerment and efficiency
                                     </p>
                                     <p class="card-text text-center mt-auto">
                                         496 ₪
@@ -305,14 +309,15 @@
             <div class="row">
                 <div class="col-12 actions__wrapper">
                     <div class="my-5 w-100">
-                        <a class="btn btn-primary register-btn btn-large" href="#">הרשמה</a>
+                        <a class="btn btn-primary register-btn btn-large" href="#">Sign up</a>
                     </div>
                     <h4 class="text-center">
-                        אם לאחר שביצעתם אבחון תרצו להבין אותו טוב יותר (גם אם לא רכשתם מראש את מסלול המאסטר)
+                        If after you have done a test you will want to understand it better (even if you have not
+                        purchased the master track in advance)
                         <br />
-                        רוצים להתייעץ לפני משא ומתן חשוב?
+                        Want to consult before an important negotiation?
                     </h4>
-                    <h4 class="text-center mt-3"> אנחנו לרשותכם לכל שאלה או הערה
+                    <h4 class="text-center mt-3"> We are at your service for any question or comment
                     </h4>
                     <h4 class="text-center">pansystems361@gmail.com</h4>
                 </div>

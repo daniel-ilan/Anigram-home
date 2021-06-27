@@ -27,6 +27,12 @@
   max-width: 100%;
 }
 
+.navbar-no-collapse {
+  margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+}
+
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
@@ -45,11 +51,22 @@
   border-radius: 10px;
   width: 100px;
   justify-content: center;
-  margin-inline-end: auto;
+  margin-inline: 10px;
 }
 
 .navbar-brand {
   max-width: 55px;
+}
+
+.dropdown-menu {
+  text-align: initial;
+}
+
+.dropdown-item {
+  font-size: 22px;
+  &:hover {
+    background-color: lighten($color: #5286ec, $amount: 30);
+  }
 }
 
 .cta__container {
@@ -94,5 +111,11 @@
   }
   .register-btn {
     margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    max-width: fit-content;
   }
 }

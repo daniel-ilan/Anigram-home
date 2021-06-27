@@ -5,6 +5,17 @@
   -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
 }
 
+.language-icon .iconify {
+  color: rgba(255, 255, 255, 0.55);
+  width: 24px;
+  height: 24px;
+  transition: color 0.2s;
+  cursor: pointer;
+  &:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
 @-webkit-keyframes ca3_fade_move_down {
   0% {
     -webkit-transform: translate(0, -20px);

@@ -82,6 +82,11 @@
   z-index: -100;
 }
 
+.en .bg-yellow,
+.en .bg-profile {
+  transform: scaleX(-1);
+}
+
 .bg-profile {
   position: absolute;
   z-index: -100;
@@ -157,9 +162,9 @@
   background: #ffffff;
   .card-header {
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 30px 0;
     background: #ffffff;
-    border-bottom: none;
+    border: none;
   }
   .hr {
     background-color: black;
@@ -168,7 +173,7 @@
     margin-top: 0;
   }
   .card-body {
-    padding: 0rem 3rem 1rem;
+    padding: 0rem 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -187,7 +192,7 @@
   box-shadow: 0px 4px 1px 2px rgba(249, 168, 38, 0.5);
   border-radius: 30px;
   width: 300px;
-  height: 300px;
+  min-height: 300px;
 }
 
 .price-high {
@@ -212,6 +217,14 @@
   padding: 0 0 20px 0;
 }
 
+.en .price {
+  min-height: 285px;
+}
+
+.en .price.price-medium {
+  min-height: 335px;
+}
+
 @media (max-width: 992px) {
   .card__wrapper {
     width: 100%;
@@ -234,6 +247,7 @@
     height: calc(100% + 330px);
     width: 160%;
   }
+
   .types_wheel {
     width: 100%;
   }
