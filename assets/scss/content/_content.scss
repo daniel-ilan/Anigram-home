@@ -7,7 +7,7 @@
 .scroll-to-top {
   position: sticky;
   top: 90%;
-  right: 2%;
+  inset-inline-start: 2%;
   z-index: 1;
   color: $primary;
   width: 36px;
@@ -50,7 +50,7 @@
       position: absolute;
       width: 16px;
       height: 16px;
-      right: -30px;
+      inset-inline-start: -30px;
       top: 10px;
       display: inline-block;
       background-image: url('../../assets/images/listStyle.svg');
@@ -204,6 +204,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.fb-link {
+  color: #122b66;
+  font-weight: 600;
 }
 
 .register-btn.btn-large {

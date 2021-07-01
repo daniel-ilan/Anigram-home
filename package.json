@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "@mdi/font": "^5.8.55",
+    "@mdi/font": "^5.9.55",
     "node-sass": "^5.0.0",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "cssnano": "^5.0.6",
     "parcel": "^2.0.0-beta.3.1",
-    "postcss": "^8.3.2"
+    "postcss": "^8.3.5"
   },
   "source": {},
   "scripts": {
