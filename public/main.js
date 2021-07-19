@@ -1,4 +1,5 @@
 import smoothscroll from 'smoothscroll-polyfill';
+
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
@@ -9,3 +10,6 @@ window.addEventListener('resize', () => {
 
 smoothscroll.polyfill();
 window.__forceSmoothScrollPolyfill__ = true;
+
+// You can also use <link> for styles
+// ..
